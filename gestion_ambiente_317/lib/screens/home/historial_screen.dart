@@ -130,8 +130,8 @@ class HistorialScreen extends StatelessWidget {
                   final colorCardBorder =
                       esSolucionado ? Colors.green.shade300 : Colors.red.shade300;
                   final colorCardBg = esSolucionado
-                      ? Colors.green.shade50.withOpacity(0.5)
-                      : Colors.red.shade50.withOpacity(0.5);
+                      ? Colors.green.shade50.withValues(alpha: 0.5)
+                      : Colors.red.shade50.withValues(alpha: 0.5);
                   final colorBadgeBg =
                       esSolucionado ? Colors.green.shade600 : Colors.red.shade600;
                   final textoBadge = esSolucionado ? 'SOLUCIONADO' : 'PENDIENTE';
